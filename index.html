@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabul Heritage | Authentic Hand-Woven Afghan Carpets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            terracotta: '#A73A30',
+                            sand: '#F4F1EB',
+                            charcoal: '#2C2A29',
+                            olive: '#5A6046'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Inter"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-sand text-brand-charcoal font-sans antialiased selection:bg-brand-terracotta selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="absolute top-0 w-full z-50 px-6 py-8 flex justify-between items-center">
+        <div class="text-2xl font-serif tracking-wide text-brand-sand drop-shadow-md">
+            Kabul Heritage
+        </div>
+        <div>
+            <!-- Update this link to your future Hetzner subdomain -->
+            <a href="https://shop.yourdomain.com" class="bg-brand-sand text-brand-charcoal px-6 py-2 rounded-sm text-sm tracking-widest uppercase hover:bg-white transition-colors duration-300">
+                Enter Shop
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-brand-charcoal/40 z-10"></div>
+        <!-- High-quality placeholder image of an afghan rug/interior -->
+        <img src="https://images.unsplash.com/photo-1600166898405-da9535204843?q=80&w=2574&auto=format&fit=crop" 
+             alt="Warm interior with Afghan rug" 
+             class="absolute inset-0 w-full h-full object-cover object-center scale-105 animate-[pulse_20s_ease-in-out_infinite_alternate]" />
+        
+        <div class="relative z-20 text-center px-4 max-w-4xl mt-16">
+            <span class="text-brand-sand/80 uppercase tracking-[0.3em] text-xs font-semibold mb-4 block">Tradition Woven in Time</span>
+            <h1 class="text-5xl md:text-7xl font-serif text-brand-sand mb-6 leading-tight">
+                Ground Your Space in <br> <i class="text-brand-terracotta font-normal">Authentic History</i>
+            </h1>
+            <p class="text-lg md:text-xl text-brand-sand/90 font-light max-w-2xl mx-auto mb-10">
+                Ethically sourced, hand-knotted wool rugs from the master weavers of Afghanistan. Bring unparalleled texture, warmth, and soul into your modern home.
+            </p>
+            <a href="https://shop.yourdomain.com" class="inline-block bg-brand-terracotta text-white px-8 py-4 rounded-sm tracking-wider uppercase text-sm hover:bg-red-900 transition-all duration-300 shadow-lg">
+                Explore the Collection
+            </a>
+        </div>
+    </section>
+
+    <!-- The Craft Section -->
+    <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+        <div class="w-full md:w-1/2 relative">
+            <img src="https://images.unsplash.com/photo-1590123512537-88eb7e316447?q=80&w=2608&auto=format&fit=crop" 
+                 alt="Detail of hand-woven carpet texture" 
+                 class="w-full h-[600px] object-cover rounded-sm shadow-2xl" />
+            <div class="absolute -bottom-8 -right-8 bg-white p-8 shadow-xl hidden md:block max-w-xs">
+                <p class="font-serif italic text-xl text-brand-charcoal">"A room without a rug is like a story without a soul."</p>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2">
+            <h2 class="text-4xl font-serif mb-6 text-brand-charcoal">The Art of the Loom</h2>
+            <div class="w-12 h-1 bg-brand-terracotta mb-8"></div>
+            <p class="text-lg mb-6 leading-relaxed font-light text-gray-700">
+                Every Kabul Heritage carpet is a masterpiece that takes months to complete. Utilizing centuries-old techniques, our artisans spin local wool and dye it using natural elements found in the Afghan landscape—from pomegranate peels to madder root.
+            </p>
+            <p class="text-lg mb-8 leading-relaxed font-light text-gray-700">
+                The result is not just a floor covering, but a generational heirloom. The lanolin-rich wool ensures your carpet is naturally stain-resistant, incredibly soft underfoot, and develops a beautiful, glowing patina over the decades.
+            </p>
+            <ul class="space-y-4 mb-10">
+                <li class="flex items-center text-brand-olive font-medium">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    100% Hand-spun Afghan Wool
+                </li>
+                <li class="flex items-center text-brand-olive font-medium">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Natural Botanical Dyes
+                </li>
+                <li class="flex items-center text-brand-olive font-medium">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Direct from Artisans to You
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-charcoal text-brand-sand py-12 text-center border-t border-gray-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="font-serif text-2xl mb-4">Kabul Heritage</h3>
+            <p class="font-light text-gray-400 mb-8 max-w-md mx-auto">Curating the finest traditional Afghan carpets for the modern, mindful home.</p>
+            <div class="flex justify-center space-x-6 text-sm tracking-wider uppercase text-gray-400 mb-8">
+                <a href="#" class="hover:text-brand-terracotta transition-colors">Instagram</a>
+                <a href="#" class="hover:text-brand-terracotta transition-colors">Pinterest</a>
+                <a href="mailto:contact@yourdomain.com" class="hover:text-brand-terracotta transition-colors">Contact</a>
+            </div>
+            <p class="text-xs text-gray-600">&copy; 2026 Kabul Heritage. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
